@@ -102,3 +102,4 @@ def writetofile(group, date, outputfilepath, communityID_hashtag_dict):
         # writer.writerow([[item] for item in communityID_hashtag_dict.items()])
 
     print('wrote')
+

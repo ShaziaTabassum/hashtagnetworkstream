@@ -16,5 +16,3 @@ def readpostfile(filename, delimeter, hashtag_network_list):
                     for j in range(i + 1, len(hash_column)):
                         hashtag_network_list.append(hash_column[i] + "," + hash_column[j] + "," + date)
     return hashtag_network_list
-
-

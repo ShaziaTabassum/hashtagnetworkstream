@@ -5,10 +5,11 @@ import matplotlib.cm as cm
 
 # define the graph
 # edge = [(1,2),(1,3),(1,4),(1,5),(1,6),(2,7),(2,8),(2,9)]
-
 # G = nx.Graph()
 # G.add_edges_from(edge)
-# retrun partition as a dict
+# return partition as a dict
+
+
 G = nx.karate_club_graph()
 partition = community_louvain.best_partition(G, resolution=100)
 
